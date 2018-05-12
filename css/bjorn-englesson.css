@@ -17,7 +17,6 @@ body
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-attachment: fixed;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -55,10 +54,17 @@ div.footer p
 {
 	text-align: center;
 	font-size:0.8em;
+	margin: 1em;
+	margin-bottom: 2em;
 }
 
 @media screen and (min-width: 1081px) 
 {
+	body
+	{
+		background-attachment: fixed;
+	}
+
 	div.contentTitle
 	{
 		display: block;
