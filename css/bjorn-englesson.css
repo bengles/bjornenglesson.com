@@ -12,11 +12,6 @@ body
 	font-weight: 100;
 	color:white;
 	margin:0;
-	background-image:url('../img/background-2.png');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -50,7 +45,7 @@ div.content a[href]:active
 	color:#aaaaaa;
 }
 
-div.footer p
+div.footer
 {
 	text-align: center;
 	font-size:0.8em;
