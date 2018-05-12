@@ -1,0 +1,210 @@
+html
+{
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	color:white;
+	margin:0;
+	background-image:url('../img/background-2.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: 100;
+}
+
+div.divider
+{
+	left: 50%;
+	margin: auto;
+	padding: 0;
+	width: 90%;
+	height: 1px;
+	background-color: white;
+}
+
+div.content a[href]
+{
+	text-decoration: none;
+	color:#cccccc;
+}
+
+div.content a[href]:hover
+{
+	color:#ffffff;
+}
+
+div.content a[href]:active
+{
+	color:#aaaaaa;
+}
+
+div.footer p
+{
+	text-align: center;
+	font-size:0.8em;
+}
+
+@media screen and (min-width: 1081px) 
+{
+	div.contentTitle
+	{
+		display: block;
+		width:70%;
+		font-size:2em;
+		left: 50%;
+		margin:auto;
+	}
+
+	.contentTitle img
+	{
+		margin:0em 0em 1em 1em;
+		border-radius: 3em;
+		width: 14em;
+		height: 14em;
+		float:right;
+		background-size:cover;
+	}
+
+	.content::after
+	{
+		display: table;
+		content: "";
+		clear:both;
+	}
+
+	.content img
+	{
+		margin:0em 0 2em 2em;
+		border-radius: 3em;
+		width: 14em;
+		height: 14em;
+		float:right;
+		background-size:cover;
+	}
+
+	div.content
+	{
+		display: block;
+		font-size: 1.5em;
+		left: 50%;
+		margin:auto;
+		margin-top:1em;
+		margin-bottom:1em;
+		width: 70%;
+	}
+
+	h1.title
+	{
+		text-align: center;
+		padding-top:0.5em;
+		padding-bottom:0.25em;
+		font-size: 5em;
+		margin:0;
+	}
+
+	.mobileTitle
+	{
+		display: none;
+	}
+
+	.desktopTitle
+	{
+		display: block;
+	}
+}
+
+
+/* Mobile */
+@media screen and (max-width: 1080px) 
+{	
+	body
+	{
+		color:white;
+		font-size:1.75em;
+	}
+
+	h1.title
+	{
+		text-align: center;
+		padding-top:0.5em;
+		padding-bottom:0.25em;
+		font-size: 4em;
+		margin:0;
+	}
+
+	h4
+	{
+		font-size: 1.5em;
+	}
+
+	div.content
+	{
+		display: block;
+		font-size: 1.5em;
+		left: 50%;
+		margin:auto;
+		margin-top:1em;
+		margin-bottom:1em;
+		width: 85%;
+	}
+
+	div.contentTitle
+	{
+		display: block;
+		width:85%;
+		font-size:2em;
+		left: 50%;
+		margin:auto;
+	}
+
+	.content
+	{
+		width:85%;
+	}
+
+	.contentTitle img
+	{
+		display:block;
+		width: 90%;
+		left:50%;
+		margin:auto;
+		margin-bottom:1em;
+		margin-top:1em;
+		border-radius: 3em;
+		-webkit-border-radius: 3em;
+   		-moz-border-radius: 3em;
+	}
+
+	.content img
+	{
+		display: block;
+		width: 80%;
+		margin:auto;
+		margin-bottom: 1em;
+		margin-top: 1em;
+		border-radius: 3em;
+	}
+
+	.mobileTitle
+	{
+		display: block;
+	}
+
+	.desktopTitle
+	{
+		display: none;
+	}
+}
