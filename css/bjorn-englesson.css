@@ -55,6 +55,13 @@ div.footer
 /* Desktop */
 @media screen and (min-width: 1081px) 
 {
+	body
+	{
+		background-image:url('../img/background.png');
+		background-attachment: fixed;
+		background-size:cover;
+	}
+
 	div.contentTitle
 	{
 		display: block;
