@@ -164,6 +164,11 @@ div.footer
 		margin:0;
 	}
 
+	h2
+	{
+		font-weight: 200;
+	}
+
 	h4
 	{
 		font-size: 1.5em;
