@@ -140,6 +140,7 @@ div.footer p
 	{
 		color:white;
 		font-size:1.75em;
+		background-attachment: scroll;
 	}
 
 	h1.title
