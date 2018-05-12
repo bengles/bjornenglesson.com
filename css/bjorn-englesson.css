@@ -55,13 +55,13 @@ div.footer
 /* Desktop */
 @media screen and (min-width: 1081px) 
 {
-/*	body
+	body
 	{
 		background-image:url('../img/background.png');
 		background-attachment: fixed;
 		background-size:cover;
 	}
-*/
+
 	div.contentTitle
 	{
 		display: block;
@@ -133,7 +133,7 @@ div.footer
 /* Mobile */
 @media screen and (max-width: 1080px) 
 {	
-	/*body:before {
+	body:before {
 	  content: "";
 	  display: block;
 	  position: fixed;
@@ -147,7 +147,7 @@ div.footer
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	}*/
+	}
 
 	body
 	{
