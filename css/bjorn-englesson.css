@@ -55,11 +55,6 @@ div.footer
 
 @media screen and (min-width: 1081px) 
 {
-	body
-	{
-		background-attachment: fixed;
-	}
-
 	div.contentTitle
 	{
 		display: block;
@@ -135,7 +130,6 @@ div.footer
 	{
 		color:white;
 		font-size:1.75em;
-		background-attachment: scroll;
 	}
 
 	h1.title
