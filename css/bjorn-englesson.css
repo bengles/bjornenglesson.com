@@ -32,7 +32,7 @@ div.divider
 div.content a[href]
 {
 	text-decoration: none;
-	color:#cccccc;
+	color:#aaaaffff;
 }
 
 div.content a[href]:hover
