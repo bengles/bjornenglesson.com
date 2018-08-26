@@ -88,7 +88,7 @@ div.footer
 		clear:both;
 	}
 
-	.content img
+	.content img.contentImg
 	{
 		margin:0em 0 2em 2em;
 		border-radius: 3em;
@@ -97,6 +97,16 @@ div.footer
 		float:right;
 		background-size:cover;
 	}
+
+	.content img.tool
+	{
+		margin:0em 2em 0em 0em;
+		height: 1.5em;
+		width:: auto;
+		float:left;
+		background-size:cover;
+	}
+
 
 	div.content
 	{
