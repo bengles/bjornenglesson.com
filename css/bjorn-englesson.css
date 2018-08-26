@@ -227,7 +227,7 @@ div.footer
    		-moz-border-radius: 3em;
 	}
 
-	.content img
+	.content img.contentImg
 	{
 		display: block;
 		width: 80%;
@@ -235,6 +235,27 @@ div.footer
 		margin-bottom: 1em;
 		margin-top: 1em;
 		border-radius: 3em;
+	}
+
+	div.tools
+	{
+		display: block;
+	}
+
+	div.tools::after
+	{
+		display: table;
+		content: "";
+		clear:both;
+	}
+
+	.content img.tool
+	{
+		margin:0.5em 2em 0.5em 0em;
+		height: 1.5em;
+		width:: auto;
+		float:left;
+		background-size:cover;
 	}
 
 	.mobileTitle
