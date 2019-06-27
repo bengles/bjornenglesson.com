@@ -12,11 +12,13 @@ body
 	font-weight: 100;
 	color:white;
 	margin:0;
+	text-shadow: 1px 1px 1px #111111;
 }
 
 h1,h2,h3,h4,h5,h6
 {
-	font-weight: 100;
+	font-weight: 200;
+	text-shadow: 1px 1px 1px #111111;
 }
 
 div.divider
@@ -32,7 +34,7 @@ div.divider
 div.content a[href]
 {
 	text-decoration: none;
-	color:#aaaaffff;
+	color:#aabbffff;
 }
 
 div.content a[href]:hover
@@ -57,9 +59,10 @@ div.footer
 {
 	body
 	{
-		background-image:url('../img/background.png');
+		background-image:url('../img/background-2.png');
 		background-attachment: fixed;
 		background-size:cover;
+		/*background-image:linear-gradient(#313336, #5a646c);*/
 	}
 
 	div.contentTitle
@@ -94,6 +97,16 @@ div.footer
 		border-radius: 3em;
 		width: 14em;
 		height: 14em;
+		float:right;
+		background-size:cover;
+	}
+
+	.content img.contentImgAutoHeight
+	{
+		margin:0em 0 2em 2em;
+		border-radius: 3em;
+		width: 14em;
+		height: auto;
 		float:right;
 		background-size:cover;
 	}
